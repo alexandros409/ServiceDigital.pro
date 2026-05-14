@@ -1,1 +1,195 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceDigital.pro | Elevating Hospitality</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --navy: #0A192F;
+            --gold: #C5A059;
+            --slate: #708090;
+            --white: #FFFFFF;
+            --glass: rgba(255, 255, 255, 0.05);
+            --gold-gradient: linear-gradient(135deg, #C5A059 0%, #E2C284 100%);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: #050b14;
+            color: var(--white);
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+
+        header {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: radial-gradient(circle at center, rgba(197, 160, 89, 0.1) 0%, transparent 70%);
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+
+        .quote-box {
+            max-width: 800px;
+            font-size: 1.2rem;
+            font-style: italic;
+            border-left: 4px solid var(--gold);
+            padding: 20px;
+            background: var(--glass);
+            margin: 40px 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .card {
+            background: var(--glass);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .card:hover {
+            border-color: var(--gold);
+            transform: translateY(-10px);
+        }
+
+        .card i { font-size: 3rem; color: var(--gold); margin-bottom: 20px; }
+
+        .card h3 { font-family: 'Poppins', sans-serif; margin-bottom: 15px; font-size: 1.5rem; }
+
+        .strategy-table {
+            width: 100%;
+            margin-top: 80px;
+            border-collapse: collapse;
+            background: var(--glass);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .strategy-table th, .strategy-table td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .strategy-table th { color: var(--gold); text-transform: uppercase; }
+
+        footer {
+            text-align: center;
+            padding: 80px 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 100px;
+        }
+
+        .btn-gold {
+            display: inline-block;
+            padding: 15px 30px;
+            background: var(--gold-gradient);
+            color: var(--navy);
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>ServiceDigital.pro</h1>
+        <p style="font-size: 1.5rem; color: var(--slate);">Quality is Permanence</p>
+        <div class="quote-box">
+            "Το πρακτικό κομμάτι είναι το δόλωμα για να μπεις στην πόρτα, αλλά η ποιότητα είναι αυτή που θα σου φέρει τα υψηλά περιθώρια κέρδους και τη μονιμότητα."
+        </div>
+    </header>
+
+    <section id="ecosystem">
+        <h2 style="text-align: center; font-family: 'Poppins'; color: var(--gold);">THE ECOSYSTEM</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fa-solid fa-users-gear"></i>
+                <h3>BSPS PRO</h3>
+                <p>Η Λύση στην Έλλειψη Προσωπικού. Μετατρέπουμε το ανειδίκευτο προσωπικό σε επαγγελματίες μέσω συστημάτων.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Born to Host</h3>
+                <p>35 χρόνια εμπειρίας σε ένα ψηφιακό εγχειρίδιο. Η τέχνη της φιλοξενίας που ανεβάζει την αξία του brand σας.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Crypto Tracker</h3>
+                <p>Data-driven αποφάσεις για το χαρτοφυλάκιό σας. Στρατηγική 12μηνης αφορολόγητης διακράτησης.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-coins"></i>
+                <h3>TipFlow.pro</h3>
+                <p>Διαφανής και αυτόματη διαχείριση φιλοδωρημάτων. Δικαιοσύνη και κίνητρο για την ομάδα.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h3>Shift App</h3>
+                <p>Έξυπνος προγραμματισμός βαρδιών. Το πρακτικό εργαλείο που οργανώνει τη σάλα σας.</p>
+            </div>
+        </div>
+    </section>
+
+    <table class="strategy-table">
+        <thead>
+            <tr>
+                <th>Στοιχείο</th>
+                <th>Πρακτικό (Εύκολο)</th>
+                <th>Ποιοτικό (Κερδοφόρο)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Τι αγοράζει ο πελάτης</td>
+                <td>Χρόνο και ευκολία</td>
+                <td style="color: var(--gold);">Φήμη και πιστότητα</td>
+            </tr>
+            <tr>
+                <td>Βασικό επιχείρημα</td>
+                <td>"Λειτουργεί αυτόματα"</td>
+                <td style="color: var(--gold);">"Απογειώνει την εμπειρία"</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        <h2>"Οι άλλοι γεμίζουν τα τραπέζια σας. Εμείς φροντίζουμε οι πελάτες να επιστρέφουν ξανά και ξανά."</h2>
+        <p style="margin-top: 20px; color: var(--slate);">Alexander @ ServiceDigital.pro | Cloppenburg</p>
+        <a href="mailto:contact@servicedigital.pro" class="btn-gold">Επικοινωνήστε μαζί μας</a>
+    </footer>
+</div>
+
+</body>
+</html>
 
